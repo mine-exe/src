@@ -91,18 +91,16 @@ scoreboard:
   # Should we refresh the scoreboard (update placeholders)?
   refresh:
     enabled: true
-    rate: 200 # In ticks (20 ticks = 1 second)
-
-  title: "&d&l< MineExe >"  
-  lines: 
-    - "&7&m>-------------<"
-    - "&e&lPlayer:"
-    - "  &f%player%"
-    - ""
-    - "&e&lRank:"
-    - "  &f%vault_rank%"
-    - "Players: %online%/%online_max%"
-    - "&7&m>-------------<"
+    rate: 300 
+  title: "&6&l< &bMine&aExe &6>"  
+  lines:  
+    - "&8&o>-------------<"
+    - "&6{ &busr &8&o>> &r&7%player%"
+    - " "
+    - "&6{ &brank &8&o>> &r&7%vault_rank%"
+    - " "
+    - "&6{ &bplrs &8&o>> &r&7%online%/%online_max%"
+    - "&8&o>-------------<"
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # |TABLIST                                   |
