@@ -1,0 +1,561 @@
+[10:27:17] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:27:21] [Worker-Main-11/INFO]: Loaded 7 recipes
+[10:27:24] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[10:27:24] [Server thread/INFO]: Loading properties
+[10:27:24] [Server thread/INFO]: This server is running CraftBukkit version 3498-Spigot-b081915-10ba1be (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT)
+[10:27:24] [Server thread/INFO]: Debug logging is disabled
+[10:27:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:27:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:27:24] [Server thread/INFO]: Default game type: SURVIVAL
+[10:27:24] [Server thread/INFO]: Generating keypair
+[10:27:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:27:25] [Server thread/INFO]: Using default channel type
+[10:27:25] [Server thread/ERROR]: Ambiguous plugin name `BedWars1058' for files `plugins\bedwars-plugin-22.2.jar' and `plugins\bedwars-plugin-21.11.1.jar' in `plugins'
+[10:27:26] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[10:27:26] [Server thread/INFO]: [BedWars1058] Loading BedWars1058 v22.2
+[10:27:26] [Server thread/ERROR]: [BedWars1058] I can't run on your version: v1_18_R2
+[10:27:26] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[10:27:27] [Server thread/INFO]: [Skywars] Loading Skywars v5.6.4
+[10:27:27] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.2
+[10:27:27] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[10:27:27] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:27:27] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[10:27:27] [Server thread/INFO]: [BedWars1058] Enabling BedWars1058 v22.2
+[10:27:27] [Server thread/INFO]: [BedWars1058] Disabling BedWars1058 v22.2
+[10:27:27] [Server thread/INFO]: Preparing level "world"
+[10:27:28] [Server thread/INFO]: -------- World Settings For [world] --------
+[10:27:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:27:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:27:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:27:28] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:27:28] [Server thread/INFO]: View Distance: 10
+[10:27:28] [Server thread/INFO]: Simulation Distance: 10
+[10:27:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:27:28] [Server thread/INFO]: Mob Spawn Range: 6
+[10:27:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:27:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:27:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:27:28] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:27:28] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:27:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:27:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:27:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:27:28] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:27:28] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:27:28] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:27:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:27:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:27:28] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:27:28] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:27:28] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:27:28] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:27:28] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:27:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:27:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:27:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:27:28] [Server thread/INFO]: Max TNT Explosions: 100
+[10:27:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:27:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:27:29] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[10:27:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:27:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:27:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:27:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:27:29] [Server thread/INFO]: View Distance: 10
+[10:27:29] [Server thread/INFO]: Simulation Distance: 10
+[10:27:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:27:29] [Server thread/INFO]: Mob Spawn Range: 6
+[10:27:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:27:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:27:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:27:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:27:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:27:29] [Server thread/INFO]: Max TNT Explosions: 100
+[10:27:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:27:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:27:29] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[10:27:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:27:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:27:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:27:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:27:29] [Server thread/INFO]: View Distance: 10
+[10:27:29] [Server thread/INFO]: Simulation Distance: 10
+[10:27:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:27:29] [Server thread/INFO]: Mob Spawn Range: 6
+[10:27:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:27:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:27:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:27:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:27:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:27:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:27:29] [Server thread/INFO]: Max TNT Explosions: 100
+[10:27:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:27:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:27:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:27:32] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[10:27:32] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[10:27:32] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[10:27:32] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[10:27:32] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[10:27:32] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[10:27:33] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[10:27:33] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[10:27:34] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[10:27:34] [Worker-Main-14/INFO]: Preparing spawn area: 1%
+[10:27:34] [Worker-Main-8/INFO]: Preparing spawn area: 1%
+[10:27:35] [Worker-Main-8/INFO]: Preparing spawn area: 1%
+[10:27:35] [Worker-Main-9/INFO]: Preparing spawn area: 7%
+[10:27:36] [Worker-Main-10/INFO]: Preparing spawn area: 10%
+[10:27:36] [Worker-Main-14/INFO]: Preparing spawn area: 13%
+[10:27:37] [Worker-Main-13/INFO]: Preparing spawn area: 19%
+[10:27:38] [Worker-Main-10/INFO]: Preparing spawn area: 82%
+[10:27:38] [Worker-Main-10/INFO]: Preparing spawn area: 82%
+[10:27:39] [Server thread/INFO]: Time elapsed: 9325 ms
+[10:27:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:27:40] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[10:27:40] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[10:27:40] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[10:27:40] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[10:27:41] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[10:27:41] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[10:27:42] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[10:27:42] [Worker-Main-9/INFO]: Preparing spawn area: 3%
+[10:27:43] [Worker-Main-8/INFO]: Preparing spawn area: 5%
+[10:27:44] [Worker-Main-13/INFO]: Preparing spawn area: 5%
+[10:27:44] [Worker-Main-14/INFO]: Preparing spawn area: 5%
+[10:27:44] [Worker-Main-9/INFO]: Preparing spawn area: 6%
+[10:27:45] [Worker-Main-13/INFO]: Preparing spawn area: 23%
+[10:27:45] [Worker-Main-9/INFO]: Preparing spawn area: 47%
+[10:27:46] [Worker-Main-9/INFO]: Preparing spawn area: 68%
+[10:27:47] [Server thread/INFO]: Time elapsed: 7631 ms
+[10:27:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:27:48] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[10:27:48] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[10:27:48] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[10:27:48] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[10:27:49] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[10:27:49] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[10:27:50] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[10:27:50] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[10:27:51] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[10:27:51] [Worker-Main-8/INFO]: Preparing spawn area: 6%
+[10:27:52] [Worker-Main-9/INFO]: Preparing spawn area: 34%
+[10:27:52] [Worker-Main-10/INFO]: Preparing spawn area: 56%
+[10:27:53] [Server thread/INFO]: Time elapsed: 6171 ms
+[10:27:53] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[10:27:53] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[10:27:53] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[10:27:53] [Server thread/INFO]: -------- World Settings For [bedwars_lobby] --------
+[10:27:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:27:53] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:27:53] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:27:53] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:27:53] [Server thread/INFO]: View Distance: 10
+[10:27:53] [Server thread/INFO]: Simulation Distance: 10
+[10:27:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:27:53] [Server thread/INFO]: Mob Spawn Range: 6
+[10:27:53] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:27:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:27:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:27:53] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:27:53] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:27:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:27:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:27:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:27:53] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:27:53] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:27:53] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:27:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:27:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:27:53] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:27:53] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:27:53] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:27:53] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:27:53] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:27:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:27:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:27:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:27:53] [Server thread/INFO]: Max TNT Explosions: 100
+[10:27:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:27:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:27:53] [Server thread/INFO]: Preparing start region for dimension minecraft:bedwars_lobby
+[10:27:55] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[10:27:55] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[10:27:55] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[10:27:55] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[10:27:55] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[10:27:56] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[10:27:56] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[10:27:57] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[10:27:57] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[10:27:58] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[10:27:58] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[10:27:59] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[10:27:59] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[10:28:00] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[10:28:00] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[10:28:01] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[10:28:01] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[10:28:02] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[10:28:02] [Worker-Main-14/INFO]: Preparing spawn area: 1%
+[10:28:03] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[10:28:03] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[10:28:04] [Worker-Main-9/INFO]: Preparing spawn area: 5%
+[10:28:04] [Worker-Main-13/INFO]: Preparing spawn area: 11%
+[10:28:05] [Worker-Main-14/INFO]: Preparing spawn area: 11%
+[10:28:05] [Worker-Main-9/INFO]: Preparing spawn area: 11%
+[10:28:06] [Worker-Main-14/INFO]: Preparing spawn area: 11%
+[10:28:06] [Worker-Main-13/INFO]: Preparing spawn area: 12%
+[10:28:07] [Worker-Main-14/INFO]: Preparing spawn area: 65%
+[10:28:07] [Worker-Main-9/INFO]: Preparing spawn area: 65%
+[10:28:08] [Worker-Main-9/INFO]: Preparing spawn area: 65%
+[10:28:08] [Worker-Main-13/INFO]: Preparing spawn area: 75%
+[10:28:09] [Worker-Main-10/INFO]: Preparing spawn area: 76%
+[10:28:09] [Worker-Main-8/INFO]: Preparing spawn area: 84%
+[10:28:09] [Server thread/INFO]: Time elapsed: 16222 ms
+[10:28:09] [Server thread/INFO]: -------- World Settings For [skywars_lobby] --------
+[10:28:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:28:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:28:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:28:09] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:28:09] [Server thread/INFO]: View Distance: 10
+[10:28:09] [Server thread/INFO]: Simulation Distance: 10
+[10:28:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:28:09] [Server thread/INFO]: Mob Spawn Range: 6
+[10:28:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:28:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:28:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:28:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:28:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:28:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:28:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:28:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:28:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:28:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:28:09] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:28:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:28:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:28:09] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:28:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:28:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:28:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:28:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:28:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:28:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:28:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:28:09] [Server thread/INFO]: Max TNT Explosions: 100
+[10:28:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:28:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:28:10] [Server thread/INFO]: Preparing start region for dimension minecraft:skywars_lobby
+[10:28:11] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[10:28:11] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[10:28:11] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[10:28:11] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[10:28:12] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[10:28:12] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[10:28:13] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[10:28:13] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[10:28:14] [Worker-Main-12/INFO]: Preparing spawn area: 1%
+[10:28:14] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[10:28:15] [Worker-Main-13/INFO]: Preparing spawn area: 4%
+[10:28:15] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[10:28:16] [Worker-Main-12/INFO]: Preparing spawn area: 7%
+[10:28:16] [Worker-Main-14/INFO]: Preparing spawn area: 7%
+[10:28:17] [Worker-Main-12/INFO]: Preparing spawn area: 30%
+[10:28:17] [Worker-Main-14/INFO]: Preparing spawn area: 48%
+[10:28:18] [Worker-Main-9/INFO]: Preparing spawn area: 62%
+[10:28:18] [Worker-Main-13/INFO]: Preparing spawn area: 62%
+[10:28:19] [Server thread/INFO]: Time elapsed: 9013 ms
+[10:28:19] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[10:28:19] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[10:28:19] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[10:28:19] [Server thread/INFO]: [Skywars] Enabling Skywars v5.6.4
+[10:28:19] [Server thread/INFO]: [Skywars] Loading support for v1_18_R2
+[10:28:19] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[10:28:27] [Server thread/INFO]: Default chest type of map Ageis is CHESTNORMAL[m
+[10:28:27] [Server thread/INFO]: Default chest type of mapAgeis started with CHEST and is set to CHESTNORMAL[m
+[10:28:27] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.2
+[10:28:27] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[10:28:27] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[10:28:27] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[10:28:27] [Server thread/INFO]: [DeluxeHub] 
+[10:28:27] [Server thread/INFO]: [DeluxeHub] Version: 3.5.2
+[10:28:27] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[10:28:27] [Server thread/INFO]: [DeluxeHub] 
+[10:28:28] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[10:28:28] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_18_R2! Trying to find NMS support
+[10:28:28] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_18_R2' loaded!
+[10:28:28] [Server thread/INFO]: [NBTAPI] Found Gson: class com.google.gson.Gson
+[10:28:28] [Server thread/INFO]: [DeluxeHub] Loaded 17 plugin modules.
+[10:28:28] [Server thread/INFO]: [DeluxeHub] 
+[10:28:28] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 904ms
+[10:28:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:28:28] [Server thread/INFO]: Done (61.235s)! For help, type "help"
+[10:28:29] [Craft Scheduler Thread - 2/INFO]: [Vault] Checking for Updates ... 
+[10:28:29] [Craft Scheduler Thread - 2/INFO]: [Vault] No new version available
+[10:28:29] [Craft Scheduler Thread - 1/INFO]: ====================
+[10:28:29] [Craft Scheduler Thread - 1/INFO]: SkyWarsReloaded Updater
+[10:28:29] [Craft Scheduler Thread - 1/INFO]: 
+[10:28:29] [Craft Scheduler Thread - 1/INFO]: We found a newer version of SkyWarsReloaded!
+[10:28:29] [Craft Scheduler Thread - 1/INFO]: 
+[10:28:29] [Craft Scheduler Thread - 1/INFO]: New version: 5.6.6
+[10:28:29] [Craft Scheduler Thread - 1/INFO]: Your version: 5.6.4
+[10:28:29] [Craft Scheduler Thread - 1/INFO]: 
+[10:28:29] [Craft Scheduler Thread - 1/INFO]: You can download it here:
+[10:28:29] [Craft Scheduler Thread - 1/INFO]: https://my.gcnt.net/plugins/SkyWarsReloaded
+[10:28:29] [Craft Scheduler Thread - 1/INFO]: ----------------------------------
+[10:30:52] [User Authenticator #1/INFO]: UUID of player Mr_Sc3n1c is da99e221-dff1-44ba-9593-c52b25d1c643
+[10:30:52] [Server thread/WARN]: Unknown respawn dimension ResourceKey[minecraft:dimension / minecraft:ageis], defaulting to overworld
+[10:30:52] [Server thread/INFO]: Mr_Sc3n1c[/95.235.65.41:59095] logged in with entity id 516 at ([world]0.510573304970772, 60.0, 0.351977107258523)
+[10:30:52] [Craft Scheduler Thread - 3/WARN]: Now saving stats of player Mr_Sc3n1c
+[10:31:00] [Server thread/INFO]: Mr_Sc3n1c issued server command: /gamemode creative
+[10:31:53] [Server thread/INFO]: Mr_Sc3n1c issued server command: /pl
+[10:33:17] [Server thread/INFO]: Mr_Sc3n1c issued server command: /lobby
+[10:33:45] [Server thread/INFO]: Mr_Sc3n1c issued server command: /lobby
+[10:35:20] [Server thread/INFO]: Mr_Sc3n1c issued server command: /gamemode creative
+[10:42:05] [Server thread/INFO]: Mr_Sc3n1c has made the advancement [Stone Age]
+[10:42:27] [User Authenticator #2/INFO]: UUID of player maoos_onyourdesk is 0a9794ab-8078-4d22-bffd-dde4e927da58
+[10:42:28] [Server thread/INFO]: maoos_onyourdesk[/87.7.63.211:39572] logged in with entity id 1390 at ([world]0.510573304970772, 60.0, 0.351977107258523)
+[10:42:28] [Craft Scheduler Thread - 5/WARN]: Now saving stats of player maoos_onyourdesk
+[10:42:36] [Async Chat Thread - #0/INFO]: <maoos_onyourdesk> ullala[m
+[10:42:39] [Async Chat Thread - #0/INFO]: <Mr_Sc3n1c> salve[m
+[10:42:49] [Async Chat Thread - #0/INFO]: <maoos_onyourdesk> bella la lobby[m
+[10:42:58] [Async Chat Thread - #0/INFO]: <maoos_onyourdesk> quanto minchia ci hai lavorato[m
+[10:43:08] [Async Chat Thread - #0/INFO]: <maoos_onyourdesk> intendo il server[m
+[10:43:19] [Server thread/INFO]: maoos_onyourdesk issued server command: /pl
+[10:43:36] [Async Chat Thread - #0/INFO]: <maoos_onyourdesk> allora potresti darmi gli op che devo controllare i pl plzzzz?[m
+[10:43:41] [Server thread/INFO]: Mr_Sc3n1c issued server command: /op maoos_onyourdesk
+[10:43:41] [Server thread/INFO]: [Mr_Sc3n1c: Made maoos_onyourdesk a server operator]
+[10:44:00] [Server thread/INFO]: maoos_onyourdesk issued server command: /pl
+[10:44:16] [Async Chat Thread - #0/INFO]: <maoos_onyourdesk> allora dobbiamo mettere holographicdisplays[m
+[10:44:17] [Server thread/INFO]: Mr_Sc3n1c issued server command: /pl
+[10:44:24] [Async Chat Thread - #0/INFO]: <maoos_onyourdesk> roba per gli npc[m
+[10:44:37] [Server thread/INFO]: Mr_Sc3n1c issued server command: /lobby
+[10:44:46] [Server thread/INFO]: maoos_onyourdesk has made the advancement [Monster Hunter]
+[10:44:46] [Server thread/INFO]: Mr_Sc3n1c issued server command: /gamemode creative
+[10:44:51] [Server thread/INFO]: Mr_Sc3n1c has made the advancement [Monster Hunter]
+[10:45:08] [Async Chat Thread - #0/INFO]: [0;37;22m[[0;36;1mSkyWars[0;37;22m] [0;33;22m[21m0 [0;36;1mmaoos_onyourdesk[0;37;1m: [0;37;22mbello[m
+[10:45:41] [Server thread/INFO]: Mr_Sc3n1c issued server command: /swm arenas
+[10:45:41] [Server thread/INFO]: DEBUG #3 : inv 0, slot 0 has been set to arena: Ageis[m
+[10:45:41] [Server thread/INFO]: DEBUG #3 : inv 0, slot 0 has been set to arena: Ageis[m
+[10:45:49] [Server thread/INFO]: maoos_onyourdesk lost connection: Disconnected
+[10:45:49] [Server thread/WARN]: Now saving stats of player maoos_onyourdesk
+[10:45:49] [Server thread/INFO]: maoos_onyourdesk left the game
+[10:45:51] [User Authenticator #3/INFO]: UUID of player maoos_onyourdesk is 0a9794ab-8078-4d22-bffd-dde4e927da58
+[10:45:51] [Async Chat Thread - #0/INFO]: [0;37;22m[[0;36;1mSkyWars[0;37;22m] [0;33;22m[21m0 [0;36;1mMr_Sc3n1c[0;37;1m: [0;37;22m./swm arenas[m
+[10:45:51] [Server thread/INFO]: maoos_onyourdesk[/87.7.63.211:32924] logged in with entity id 1679 at ([world]0.510573304970772, 60.0, 0.351977107258523)
+[10:45:51] [Craft Scheduler Thread - 6/WARN]: Now saving stats of player maoos_onyourdesk
+[10:45:53] [Async Chat Thread - #0/INFO]: [0;37;22m[[0;36;1mSkyWars[0;37;22m] [0;33;22m[21m0 [0;36;1mMr_Sc3n1c[0;37;1m: [0;37;22m./swm arenas[m
+[10:46:00] [Async Chat Thread - #0/INFO]: [0;37;22m[[0;36;1mSkyWars[0;37;22m] [0;33;22m[21m0 [0;36;1mMr_Sc3n1c[0;37;1m: [0;37;22m./swm arenas[m
+[10:46:06] [Server thread/INFO]: Mr_Sc3n1c issued server command: /swm arenas
+[10:46:06] [Server thread/INFO]: DEBUG #3 : inv 0, slot 0 has been set to arena: Ageis[m
+[10:46:07] [Server thread/INFO]: DEBUG #3 : inv 0, slot 0 has been set to arena: Ageis[m
+[10:46:11] [Server thread/INFO]: maoos_onyourdesk issued server command: /swm arenas
+[10:46:11] [Server thread/INFO]: DEBUG #3 : inv 0, slot 0 has been set to arena: Ageis[m
+[10:46:11] [Server thread/INFO]: DEBUG #3 : inv 0, slot 0 has been set to arena: Ageis[m
+[10:46:29] [Server thread/INFO]: Mr_Sc3n1c lost connection: Disconnected
+[10:46:29] [Server thread/WARN]: Now saving stats of player Mr_Sc3n1c
+[10:46:29] [Server thread/INFO]: Mr_Sc3n1c left the game
+[10:46:29] [Server thread/INFO]: -------- World Settings For [Ageis] --------
+[10:46:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:46:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:46:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:46:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:46:29] [Server thread/INFO]: View Distance: 10
+[10:46:29] [Server thread/INFO]: Simulation Distance: 10
+[10:46:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:46:29] [Server thread/INFO]: Mob Spawn Range: 6
+[10:46:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:46:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:46:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:46:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:46:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:46:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:46:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:46:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:46:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:46:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:46:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:46:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:46:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:46:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:46:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:46:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:46:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:46:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:46:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:46:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:46:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:46:29] [Server thread/INFO]: Max TNT Explosions: 100
+[10:46:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:46:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:46:29] [Server thread/INFO]: Preparing start region for dimension minecraft:ageis
+[10:46:30] [Worker-Main-24/INFO]: Preparing spawn area: 0%
+[10:46:30] [Worker-Main-24/INFO]: Preparing spawn area: 0%
+[10:46:30] [Worker-Main-23/INFO]: Preparing spawn area: 0%
+[10:46:31] [Worker-Main-24/INFO]: Preparing spawn area: 0%
+[10:46:31] [Worker-Main-14/INFO]: Preparing spawn area: 1%
+[10:46:32] [Worker-Main-24/INFO]: Preparing spawn area: 12%
+[10:46:33] [Worker-Main-24/INFO]: Preparing spawn area: 51%
+[10:46:33] [Worker-Main-13/INFO]: Preparing spawn area: 62%
+[10:46:33] [Server thread/INFO]: Time elapsed: 3762 ms
+[10:46:33] [User Authenticator #4/INFO]: UUID of player Mr_Sc3n1c is da99e221-dff1-44ba-9593-c52b25d1c643
+[10:46:34] [Server thread/INFO]: Mr_Sc3n1c[/95.235.65.41:51177] logged in with entity id 1742 at ([world]0.510573304970772, 60.0, 0.351977107258523)
+[10:46:34] [Craft Scheduler Thread - 6/WARN]: Now saving stats of player Mr_Sc3n1c
+[10:46:47] [Async Chat Thread - #0/INFO]: <maoos_onyourdesk> 'n vedo un cazzo[m
+[10:46:59] [Server thread/INFO]: Mr_Sc3n1c issued server command: /time set day
+[10:46:59] [Server thread/INFO]: [Mr_Sc3n1c: Set the time to 1000]
+[10:47:00] [Async Chat Thread - #0/INFO]: <maoos_onyourdesk> sono nel vuoto[m
+[10:47:03] [Server thread/INFO]: Mr_Sc3n1c issued server command: /gamemode creative
+[10:47:06] [Server thread/INFO]: maoos_onyourdesk fell from a high place
+[10:47:31] [Async Chat Thread - #0/INFO]: [0;37;22m[[0;36;1mSkyWars[0;37;22m] [0;33;22m[21m0 [0;36;1mmaoos_onyourdesk[0;37;1m: [0;37;22mok[m
+[10:47:37] [Server thread/INFO]: Mr_Sc3n1c issued server command: /mv list
+[10:47:54] [Server thread/INFO]: Mr_Sc3n1c issued server command: /swm delete
+[10:47:58] [Server thread/INFO]: Mr_Sc3n1c issued server command: /swm delete Ageis
+[10:47:58] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[10:47:58] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[10:47:58] [Server thread/WARN]: [Multiverse-Core] /mv import Ageis NORMAL
+[10:48:13] [Server thread/INFO]: Mr_Sc3n1c issued server command: /swmap delete Ageis
+[10:48:21] [Server thread/INFO]: Mr_Sc3n1c issued server command: /swm list
+[10:48:30] [Async Chat Thread - #0/INFO]: [0;37;22m[[0;36;1mSkyWars[0;37;22m] [0;33;22m[21m0 [0;36;1mmaoos_onyourdesk[0;37;1m: [0;37;22mdovremmo mettere anche multiverse protals puo esserci utile[m
+[10:49:01] [Async Chat Thread - #0/INFO]: [0;37;22m[[0;36;1mSkyWars[0;37;22m] [0;33;22m[21m0 [0;36;1mmaoos_onyourdesk[0;37;1m: [0;37;22msisi ma avevo in mente roba figa anche per delle modalita[m
+[10:49:10] [Async Chat Thread - #0/INFO]: [0;37;22m[[0;36;1mSkyWars[0;37;22m] [0;33;22m[21m0 [0;36;1mMr_Sc3n1c[0;37;1m: [0;37;22m./swm create Ageis[m
+[10:49:25] [Server thread/INFO]: maoos_onyourdesk issued server command: /swm create Ageis
+[10:49:25] [Server thread/INFO]: -------- World Settings For [Ageis] --------
+[10:49:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:49:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:49:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:49:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:49:25] [Server thread/INFO]: View Distance: 10
+[10:49:25] [Server thread/INFO]: Simulation Distance: 10
+[10:49:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:49:25] [Server thread/INFO]: Mob Spawn Range: 6
+[10:49:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:49:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:49:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:49:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:49:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:49:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:49:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:49:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:49:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:49:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:49:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:49:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:49:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:49:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:49:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:49:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:49:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:49:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:49:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:49:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:49:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:49:25] [Server thread/INFO]: Max TNT Explosions: 100
+[10:49:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:49:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:49:31] [Server thread/INFO]: Preparing start region for dimension minecraft:ageis
+[10:49:32] [Worker-Main-23/INFO]: Preparing spawn area: 22%
+[10:49:32] [Worker-Main-36/INFO]: Preparing spawn area: 22%
+[10:49:32] [Worker-Main-24/INFO]: Preparing spawn area: 24%
+[10:49:33] [Worker-Main-11/INFO]: Preparing spawn area: 29%
+[10:49:33] [Worker-Main-13/INFO]: Preparing spawn area: 33%
+[10:49:34] [Worker-Main-13/INFO]: Preparing spawn area: 37%
+[10:49:34] [Worker-Main-11/INFO]: Preparing spawn area: 42%
+[10:49:35] [Worker-Main-24/INFO]: Preparing spawn area: 46%
+[10:49:35] [Worker-Main-11/INFO]: Preparing spawn area: 52%
+[10:49:36] [Worker-Main-23/INFO]: Preparing spawn area: 57%
+[10:49:36] [Worker-Main-13/INFO]: Preparing spawn area: 61%
+[10:49:37] [Worker-Main-11/INFO]: Preparing spawn area: 68%
+[10:49:37] [Worker-Main-9/INFO]: Preparing spawn area: 71%
+[10:49:38] [Worker-Main-23/INFO]: Preparing spawn area: 78%
+[10:49:38] [Worker-Main-13/INFO]: Preparing spawn area: 83%
+[10:49:39] [Worker-Main-36/INFO]: Preparing spawn area: 86%
+[10:49:39] [Worker-Main-9/INFO]: Preparing spawn area: 91%
+[10:49:40] [Worker-Main-11/INFO]: Preparing spawn area: 98%
+[10:49:40] [Server thread/INFO]: Time elapsed: 8559 ms
+[10:49:40] [Server thread/INFO]: Default chest type of map Ageis is CHESTNORMAL[m
+[10:49:40] [Server thread/INFO]: Default chest type of mapAgeis started with CHEST and is set to CHESTNORMAL[m
+[10:49:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8687ms or 173 ticks behind
+[10:49:49] [Server thread/INFO]: Mr_Sc3n1c issued server command: /tp maoos_onyourdesk
+[10:49:49] [Server thread/INFO]: [Mr_Sc3n1c: Teleported Mr_Sc3n1c to maoos_onyourdesk]
+[10:49:59] [Async Chat Thread - #0/INFO]: <maoos_onyourdesk> mado bellissimo sto mondo guarda qua[m
+[10:50:30] [Server thread/INFO]: Mr_Sc3n1c issued server command: /tp maoos_onyourdesk
+[10:50:30] [Server thread/INFO]: [Mr_Sc3n1c: Teleported Mr_Sc3n1c to maoos_onyourdesk]
+[10:50:32] [Async Chat Thread - #0/INFO]: <maoos_onyourdesk> che schifo le schematiche io le ho usate una volta è una rottura di coglioni[m
+[10:50:33] [Server thread/INFO]: Mr_Sc3n1c issued server command: /gamemode creative
+[10:50:45] [Async Chat Thread - #0/INFO]: <maoos_onyourdesk> ti cambio la gamemode quando entri asp[m
+[10:51:45] [Server thread/INFO]: Mr_Sc3n1c issued server command: /mvtp Ageis
+[10:52:01] [Async Chat Thread - #1/INFO]: <maoos_onyourdesk> aspe sto scaricando anydesk[m
+[10:52:18] [Async Chat Thread - #1/INFO]: <maoos_onyourdesk> certoooooooooo COFF COFF[m
+[10:52:46] [Server thread/INFO]: Mr_Sc3n1c issued server command: /gamemode creative
+[10:53:00] [Async Chat Thread - #1/INFO]: <maoos_onyourdesk> okkk[m
+[10:53:34] [Async Chat Thread - #1/INFO]: <maoos_onyourdesk> lo slot 3 credo che sia lo slot 2 perche il primo numero è 0[m
+[10:53:48] [Server thread/INFO]: maoos_onyourdesk issued server command: /gamemode c
+[10:54:01] [Async Chat Thread - #1/INFO]: <maoos_onyourdesk> ok ho messo anydesk solo un sec[m
+[10:54:35] [Async Chat Thread - #1/INFO]: <maoos_onyourdesk> l'italianooooo[m
+[10:54:50] [Async Chat Thread - #1/INFO]: <maoos_onyourdesk> p e r s o n a l i z z a b i l e[m
+[10:55:14] [Async Chat Thread - #1/INFO]: <maoos_onyourdesk> belloooooo[m
+[10:55:16] [Async Chat Thread - #1/INFO]: <maoos_onyourdesk> ah poi[m
+[10:55:30] [Server thread/INFO]: Mr_Sc3n1c issued server command: /gamemode survival
+[10:55:49] [Async Chat Thread - #1/INFO]: <maoos_onyourdesk> stavolta mi rifiuto di provare a fare qualche plugin io perché java è un incubo[m
+[10:56:07] [Async Chat Thread - #1/INFO]: <maoos_onyourdesk> soprattutto ora che uso vim[m
+[10:56:11] [Async Chat Thread - #1/INFO]: <maoos_onyourdesk> e non jetbrains[m
+[11:12:53] [Server thread/INFO]: maoos_onyourdesk lost connection: Disconnected
+[11:12:53] [Server thread/WARN]: Now saving stats of player maoos_onyourdesk
+[11:12:53] [Server thread/INFO]: - maoos_onyourdesk Disconnected
+[11:19:22] [Server thread/INFO]: Stopping the server
+[11:19:23] [Server thread/INFO]: Stopping server
+[11:19:23] [Server thread/INFO]: [DeluxeHub] Disabling DeluxeHub v3.5.2
+[11:19:23] [Server thread/INFO]: [Skywars] Disabling Skywars v5.6.4
+[11:19:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[11:19:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[11:19:23] [Server thread/WARN]: [Multiverse-Core] /mv import Ageis NORMAL
+[11:19:23] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[11:19:23] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[11:19:23] [Server thread/INFO]: Saving players
+[11:19:23] [Server thread/INFO]: Mr_Sc3n1c lost connection: Server closed
+[11:19:23] [Server thread/INFO]: Mr_Sc3n1c left the game.
+[11:19:23] [Server thread/INFO]: Saving worlds
+[11:19:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:19:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:19:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:19:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[bedwars_lobby]'/minecraft:bedwars_lobby
+[11:19:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[skywars_lobby]'/minecraft:skywars_lobby
+[11:19:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:19:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:19:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:19:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (bedwars_lobby): All chunks are saved
+[11:19:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (skywars_lobby): All chunks are saved
+[11:19:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
