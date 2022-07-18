@@ -33,12 +33,12 @@ settings:
     attackDamage:
       max: 2048.0
 messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  whitelist: &6&lNon sei in Whitelist. &cDisconnesso.
+  unknown-command: &c&oComando Sconosciuto. &eNon parlo la tua lingua!
+  server-full: &6&lIl server è pieno. Yum ripieno! 
+  outdated-client: &c&lLa tua versione di Minecraft è troppo vecchia!  
+  outdated-server: &c&lQuesto server non supporta la tua versione di Minecraft!
+  restart: &6&oRiavvio in corso
 commands:
   silent-commandblock-console: false
   tab-complete: 0
