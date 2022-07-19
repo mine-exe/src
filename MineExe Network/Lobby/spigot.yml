@@ -33,12 +33,12 @@ settings:
     attackDamage:
       max: 2048.0
 messages:
-  whitelist: &6&lNon sei in Whitelist. &cDisconnesso.
-  unknown-command: &c&oComando Sconosciuto. &eNon parlo la tua lingua!
-  server-full: &6&lIl server è pieno. Yum ripieno! 
-  outdated-client: &c&lLa tua versione di Minecraft è troppo vecchia!  
-  outdated-server: &c&lQuesto server non supporta la tua versione di Minecraft!
-  restart: &6&oRiavvio in corso
+  whitelist: Non sei in Whitelist. &cDisconnesso.
+  unknown-command: Comando Sconosciuto. &eNon parlo la tua lingua!
+  server-full: Il server è pieno. Yum ripieno!
+  outdated-client: lLa tua versione di Minecraft è troppo vecchia!
+  outdated-server: Questo server non supporta la tua versione di Minecraft!
+  restart: Riavvio in corso
 commands:
   silent-commandblock-console: false
   tab-complete: 0
@@ -139,6 +139,8 @@ world-settings:
     nerf-spawner-mobs: false
     dragon-death-sound-radius: 0
     wither-spawn-sound-radius: 0
+  worldeditregentempworld:
+    verbose: false
 config-version: 12
 stats:
   disable-saving: false
