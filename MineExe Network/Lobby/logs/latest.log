@@ -1,432 +1,455 @@
-[16:30:49] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:30:50] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
-[16:30:52] [Worker-Main-8/INFO]: Loaded 7 recipes
-[16:30:56] [Server thread/INFO]: Starting minecraft server version 1.18
-[16:30:56] [Server thread/INFO]: Loading properties
-[16:30:57] [Server thread/INFO]: This server is running CraftBukkit version 3359-Spigot-dbf4938-4f5d59a (MC: 1.18) (Implementing API version 1.18-R0.1-SNAPSHOT)
-[16:30:57] [Server thread/INFO]: Debug logging is disabled
-[16:30:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:30:57] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:30:57] [Server thread/INFO]: Default game type: SURVIVAL
-[16:30:57] [Server thread/INFO]: Generating keypair
-[16:30:57] [Server thread/INFO]: Starting Minecraft server on *:25566
-[16:30:58] [Server thread/INFO]: Using default channel type
-[16:31:00] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[16:31:00] [Server thread/INFO]: [ProtocolSupport] Loading ProtocolSupport v1.18.1-1
-[16:31:00] [Server thread/INFO]: [ProtocolSupport] File log is not enabled
-[16:31:01] [Server thread/INFO]: [ProtocolSupport] Detected Spigot server implementation type
-[16:31:01] [Server thread/ERROR]: [ProtocolSupport] ????????????????????????????????????????????????????????????????????
-[16:31:01] [Server thread/ERROR]: [ProtocolSupport] ?                               ERROR                               
-[16:31:01] [Server thread/ERROR]: [ProtocolSupport] ?   Unsupported server minecraft version 1.18
-[16:31:01] [Server thread/ERROR]: [ProtocolSupport] ?                                                                   
-[16:31:01] [Server thread/ERROR]: [ProtocolSupport] ?   This version of plugin only supports                            
-[16:31:01] [Server thread/ERROR]: [ProtocolSupport] ?   server minecraft version 1.18.1
-[16:31:01] [Server thread/ERROR]: [ProtocolSupport] ?   and following platforms:                                        
-[16:31:01] [Server thread/ERROR]: [ProtocolSupport] ?   - Spigot (https://www.spigotmc.org/)                            
-[16:31:01] [Server thread/ERROR]: [ProtocolSupport] ?   - Paper (https://papermc.io/)                                   
-[16:31:01] [Server thread/ERROR]: [ProtocolSupport] ?                                                                   
-[16:31:01] [Server thread/ERROR]: [ProtocolSupport] ?                                                                   
-[16:31:01] [Server thread/ERROR]: [ProtocolSupport] ?       https://github.com/ProtocolSupport/ProtocolSupport/         
-[16:31:01] [Server thread/ERROR]: [ProtocolSupport] ????????????????????????????????????????????????????????????????????
-[16:31:01] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
-[16:31:01] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.8.0
-[16:31:03] [Server thread/INFO]: [Parkour] Loading Parkour v7.0.3
-[16:31:03] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.1
-[16:31:03] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
-[16:31:05] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@47462741]
-[16:31:05] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.2
-[16:31:05] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.0-SNAPSHOT-b202
-[16:31:05] [Server thread/INFO]: [ServersNPC] Loading ServersNPC v3.7
-[16:31:05] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[16:31:05] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[16:31:05] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[16:31:05] [Server thread/INFO]: [ProtocolSupport] Enabling ProtocolSupport v1.18.1-1
-[16:31:05] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.8.0
-[16:31:05] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
-[16:31:05] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
-[16:31:05] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[16:31:05] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[16:31:05] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R1.PaperweightAdapter as the Bukkit adapter
-[16:31:07] [Server thread/INFO]: [WorldEdit] ====================================================
-[16:31:07] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[16:31:07] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[16:31:07] [Server thread/INFO]: [WorldEdit]   
-[16:31:07] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[16:31:07] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[16:31:07] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[16:31:07] [Server thread/INFO]: [WorldEdit]   
-[16:31:07] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[16:31:07] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[16:31:07] [Server thread/INFO]: [WorldEdit]   
-[16:31:07] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[16:31:07] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[16:31:07] [Server thread/INFO]: [WorldEdit]   
-[16:31:07] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[16:31:07] [Server thread/INFO]: [WorldEdit] ====================================================
-[16:31:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:31:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:31:07] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[16:31:07] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[16:31:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:31:07] [Server thread/INFO]: Preparing level "world"
-[16:31:08] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:31:08] [Server thread/INFO]: Mob Spawn Range: 6
-[16:31:08] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:31:08] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:31:08] [Server thread/INFO]: View Distance: 10
-[16:31:08] [Server thread/INFO]: Simulation Distance: 10
-[16:31:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:31:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:31:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:31:08] [Server thread/INFO]: Max TNT Explosions: 100
-[16:31:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:31:08] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:31:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[16:31:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:31:08] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:31:08] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:31:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:31:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:31:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:31:08] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:31:08] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:31:08] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:31:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:31:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:31:08] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:31:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:31:08] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:31:08] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:31:08] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:31:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:31:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:31:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:31:08] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:31:10] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:31:10] [Server thread/INFO]: Mob Spawn Range: 6
-[16:31:10] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:31:10] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:31:10] [Server thread/INFO]: View Distance: 10
-[16:31:10] [Server thread/INFO]: Simulation Distance: 10
-[16:31:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:31:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:31:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:31:10] [Server thread/INFO]: Max TNT Explosions: 100
-[16:31:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:31:10] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:31:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[16:31:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:31:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:31:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:31:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:31:10] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:31:10] [Server thread/INFO]: Mob Spawn Range: 6
-[16:31:10] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:31:10] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:31:10] [Server thread/INFO]: View Distance: 10
-[16:31:10] [Server thread/INFO]: Simulation Distance: 10
-[16:31:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:31:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:31:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:31:10] [Server thread/INFO]: Max TNT Explosions: 100
-[16:31:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:31:10] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:31:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[16:31:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:31:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:31:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:31:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:31:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:31:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:31:13] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[16:31:20] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[16:31:22] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[16:31:22] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[16:31:22] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[16:31:22] [Worker-Main-14/INFO]: Preparing spawn area: 3%
-[16:31:23] [Worker-Main-14/INFO]: Preparing spawn area: 5%
-[16:31:23] [Worker-Main-12/INFO]: Preparing spawn area: 10%
-[16:31:24] [Worker-Main-9/INFO]: Preparing spawn area: 15%
-[16:31:24] [Worker-Main-11/INFO]: Preparing spawn area: 18%
-[16:31:25] [Worker-Main-9/INFO]: Preparing spawn area: 22%
-[16:31:27] [Worker-Main-8/INFO]: Preparing spawn area: 27%
-[16:31:27] [Worker-Main-14/INFO]: Preparing spawn area: 27%
-[16:31:27] [Worker-Main-8/INFO]: Preparing spawn area: 27%
-[16:31:27] [Worker-Main-10/INFO]: Preparing spawn area: 32%
-[16:31:27] [Worker-Main-14/INFO]: Preparing spawn area: 37%
-[16:31:28] [Worker-Main-12/INFO]: Preparing spawn area: 49%
-[16:31:28] [Worker-Main-14/INFO]: Preparing spawn area: 54%
-[16:31:29] [Worker-Main-14/INFO]: Preparing spawn area: 57%
-[16:31:29] [Worker-Main-12/INFO]: Preparing spawn area: 58%
-[16:31:30] [Worker-Main-14/INFO]: Preparing spawn area: 64%
-[16:31:30] [Worker-Main-8/INFO]: Preparing spawn area: 68%
-[16:31:31] [Worker-Main-12/INFO]: Preparing spawn area: 68%
-[16:31:31] [Worker-Main-8/INFO]: Preparing spawn area: 68%
-[16:31:32] [Worker-Main-10/INFO]: Preparing spawn area: 69%
-[16:31:32] [Worker-Main-9/INFO]: Preparing spawn area: 70%
-[16:31:33] [Worker-Main-14/INFO]: Preparing spawn area: 70%
-[16:31:33] [Worker-Main-14/INFO]: Preparing spawn area: 71%
-[16:31:34] [Worker-Main-14/INFO]: Preparing spawn area: 71%
-[16:31:34] [Worker-Main-12/INFO]: Preparing spawn area: 71%
-[16:31:35] [Worker-Main-10/INFO]: Preparing spawn area: 73%
-[16:31:35] [Worker-Main-8/INFO]: Preparing spawn area: 75%
-[16:31:36] [Worker-Main-10/INFO]: Preparing spawn area: 76%
-[16:31:36] [Worker-Main-8/INFO]: Preparing spawn area: 78%
-[16:31:37] [Worker-Main-14/INFO]: Preparing spawn area: 80%
-[16:31:37] [Worker-Main-11/INFO]: Preparing spawn area: 82%
-[16:31:38] [Worker-Main-8/INFO]: Preparing spawn area: 83%
-[16:31:38] [Worker-Main-13/INFO]: Preparing spawn area: 83%
-[16:31:39] [Worker-Main-9/INFO]: Preparing spawn area: 83%
-[16:31:39] [Worker-Main-14/INFO]: Preparing spawn area: 83%
-[16:31:40] [Worker-Main-13/INFO]: Preparing spawn area: 85%
-[16:31:40] [Worker-Main-10/INFO]: Preparing spawn area: 85%
-[16:31:41] [Worker-Main-11/INFO]: Preparing spawn area: 86%
-[16:31:41] [Worker-Main-14/INFO]: Preparing spawn area: 86%
-[16:31:42] [Worker-Main-14/INFO]: Preparing spawn area: 87%
-[16:31:43] [Worker-Main-9/INFO]: Preparing spawn area: 89%
-[16:31:43] [Worker-Main-8/INFO]: Preparing spawn area: 90%
-[16:31:43] [Worker-Main-14/INFO]: Preparing spawn area: 91%
-[16:31:44] [Worker-Main-14/INFO]: Preparing spawn area: 92%
-[16:31:44] [Worker-Main-13/INFO]: Preparing spawn area: 93%
-[16:31:45] [Worker-Main-10/INFO]: Preparing spawn area: 94%
-[16:31:45] [Worker-Main-9/INFO]: Preparing spawn area: 96%
-[16:31:46] [Worker-Main-14/INFO]: Preparing spawn area: 96%
-[16:31:46] [Worker-Main-11/INFO]: Preparing spawn area: 99%
-[16:31:47] [Server thread/INFO]: Time elapsed: 36365 ms
-[16:31:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:31:48] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[16:31:48] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[16:31:48] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[16:31:48] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[16:31:49] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[16:31:49] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[16:31:50] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[16:31:50] [Worker-Main-8/INFO]: Preparing spawn area: 1%
-[16:31:51] [Worker-Main-9/INFO]: Preparing spawn area: 3%
-[16:31:51] [Worker-Main-10/INFO]: Preparing spawn area: 4%
-[16:31:52] [Worker-Main-14/INFO]: Preparing spawn area: 11%
-[16:31:52] [Worker-Main-12/INFO]: Preparing spawn area: 24%
-[16:31:53] [Worker-Main-13/INFO]: Preparing spawn area: 35%
-[16:31:53] [Worker-Main-8/INFO]: Preparing spawn area: 38%
-[16:31:54] [Worker-Main-9/INFO]: Preparing spawn area: 53%
-[16:31:55] [Worker-Main-14/INFO]: Preparing spawn area: 61%
-[16:31:55] [Worker-Main-8/INFO]: Preparing spawn area: 62%
-[16:31:56] [Worker-Main-11/INFO]: Preparing spawn area: 68%
-[16:31:56] [Worker-Main-11/INFO]: Preparing spawn area: 68%
-[16:31:56] [Worker-Main-9/INFO]: Preparing spawn area: 68%
-[16:31:57] [Worker-Main-9/INFO]: Preparing spawn area: 68%
-[16:31:57] [Worker-Main-12/INFO]: Preparing spawn area: 68%
-[16:31:58] [Worker-Main-8/INFO]: Preparing spawn area: 69%
-[16:31:58] [Worker-Main-14/INFO]: Preparing spawn area: 70%
-[16:31:59] [Worker-Main-12/INFO]: Preparing spawn area: 70%
-[16:31:59] [Worker-Main-12/INFO]: Preparing spawn area: 70%
-[16:32:00] [Worker-Main-8/INFO]: Preparing spawn area: 72%
-[16:32:00] [Worker-Main-13/INFO]: Preparing spawn area: 73%
-[16:32:01] [Worker-Main-9/INFO]: Preparing spawn area: 75%
-[16:32:01] [Worker-Main-8/INFO]: Preparing spawn area: 77%
-[16:32:02] [Worker-Main-8/INFO]: Preparing spawn area: 79%
-[16:32:02] [Worker-Main-14/INFO]: Preparing spawn area: 80%
-[16:32:03] [Worker-Main-9/INFO]: Preparing spawn area: 80%
-[16:32:03] [Worker-Main-12/INFO]: Preparing spawn area: 83%
-[16:32:04] [Worker-Main-10/INFO]: Preparing spawn area: 83%
-[16:32:04] [Worker-Main-13/INFO]: Preparing spawn area: 83%
-[16:32:05] [Worker-Main-8/INFO]: Preparing spawn area: 84%
-[16:32:05] [Worker-Main-13/INFO]: Preparing spawn area: 85%
-[16:32:06] [Worker-Main-13/INFO]: Preparing spawn area: 86%
-[16:32:06] [Worker-Main-10/INFO]: Preparing spawn area: 86%
-[16:32:07] [Worker-Main-13/INFO]: Preparing spawn area: 88%
-[16:32:07] [Worker-Main-13/INFO]: Preparing spawn area: 89%
-[16:32:08] [Worker-Main-12/INFO]: Preparing spawn area: 91%
-[16:32:08] [Worker-Main-12/INFO]: Preparing spawn area: 92%
-[16:32:09] [Worker-Main-12/INFO]: Preparing spawn area: 94%
-[16:32:09] [Worker-Main-13/INFO]: Preparing spawn area: 95%
-[16:32:10] [Worker-Main-11/INFO]: Preparing spawn area: 96%
-[16:32:10] [Worker-Main-14/INFO]: Preparing spawn area: 98%
-[16:32:11] [Server thread/INFO]: Time elapsed: 23778 ms
-[16:32:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:32:12] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[16:32:12] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[16:32:12] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[16:32:12] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[16:32:13] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[16:32:13] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[16:32:14] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[16:32:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[16:32:15] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[16:32:15] [Worker-Main-12/INFO]: Preparing spawn area: 2%
-[16:32:16] [Worker-Main-13/INFO]: Preparing spawn area: 10%
-[16:32:16] [Worker-Main-8/INFO]: Preparing spawn area: 18%
-[16:32:17] [Worker-Main-11/INFO]: Preparing spawn area: 22%
-[16:32:17] [Worker-Main-11/INFO]: Preparing spawn area: 27%
-[16:32:18] [Worker-Main-11/INFO]: Preparing spawn area: 41%
-[16:32:18] [Worker-Main-9/INFO]: Preparing spawn area: 51%
-[16:32:19] [Worker-Main-9/INFO]: Preparing spawn area: 54%
-[16:32:19] [Worker-Main-9/INFO]: Preparing spawn area: 62%
-[16:32:20] [Worker-Main-10/INFO]: Preparing spawn area: 70%
-[16:32:20] [Worker-Main-14/INFO]: Preparing spawn area: 77%
-[16:32:21] [Worker-Main-12/INFO]: Preparing spawn area: 84%
-[16:32:21] [Worker-Main-14/INFO]: Preparing spawn area: 88%
-[16:32:22] [Worker-Main-13/INFO]: Preparing spawn area: 94%
-[16:32:22] [Worker-Main-13/INFO]: Preparing spawn area: 98%
-[16:32:22] [Server thread/INFO]: Time elapsed: 11594 ms
-[16:32:22] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
-[16:32:23] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[16:32:23] [Server thread/INFO]: [Parkour] Enabling Parkour v7.0.3
-[16:32:24] [Server thread/INFO]: [Parkour] 0 courses found.
-[16:32:24] [Server thread/INFO]: [Parkour] 0 courses cached.
-[16:32:24] [Server thread/WARN]: [Parkour] [BountifulAPI] Plugin is missing, link was unsuccessful.
-[16:32:24] [Server thread/INFO]: [Parkour] [Vault] Successfully linked. Version: 1.7.3-b131
-[16:32:24] [Server thread/ERROR]: [Parkour] ! [Economy] Failed to connect to Vault's Economy service. Disabling Economy.
-[16:32:24] [Server thread/INFO]: [Parkour] [PlaceholderAPI] Successfully linked. Version: 2.11.2
-[16:32:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: parkour [7.0.3]
-[16:32:24] [Server thread/INFO]: [Parkour] Enabled Parkour v7.0.3
-[16:32:24] [ForkJoinPool.commonPool-worker-1/INFO]: [Parkour] Checking for update...
-[16:32:25] [ForkJoinPool.commonPool-worker-1/INFO]: [Parkour] No update available.
-[16:32:25] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.1
-[16:32:25] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_18_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m[m
-[16:32:25] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------/Warning\-------------------------[0;39m[m
-[16:32:25] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mThis plugin is running in PROXY mode![0;39m[m
-[16:32:25] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mYou have to do all configuration at config file[0;39m[m
-[16:32:25] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39minside your Bungeecord server.[0;39m[m
-[16:32:25] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m(Bungeecord-Server/plugins/SkinsRestorer/).[0;39m[m
-[16:32:25] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------\Warning/-------------------------[0;39m[m
-[16:32:25] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.2
-[16:32:25] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
-[16:32:25] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
-[16:32:25] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
-[16:32:25] [Server thread/INFO]: [DeluxeHub] 
-[16:32:25] [Server thread/INFO]: [DeluxeHub] Version: 3.5.2
-[16:32:25] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
-[16:32:25] [Server thread/INFO]: [DeluxeHub] 
-[16:32:25] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
-[16:32:25] [Server thread/WARN]: org.bukkit.configuration.InvalidConfigurationException: while parsing a block collection
-[16:32:25] [Server thread/WARN]:  in 'string', line 95, column 5:
-[16:32:25] [Server thread/WARN]:         - "&7&m----------------------"
-[16:32:25] [Server thread/WARN]:         ^
-[16:32:25] [Server thread/WARN]: expected <block end>, but found '<scalar>'
-[16:32:25] [Server thread/WARN]:  in 'string', line 98, column 8:
-[16:32:25] [Server thread/WARN]:         - "§f&lRank:
-[16:32:25] [Server thread/WARN]:            ^
-[16:32:25] [Server thread/WARN]: 
-[16:32:25] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:59)
-[16:32:25] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
-[16:32:25] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128)
-[16:32:25] [Server thread/WARN]: 	at fun.lewisdev.deluxehub.config.ConfigHandler.saveDefaultConfig(ConfigHandler.java:31)
-[16:32:25] [Server thread/WARN]: 	at java.base/java.util.HashMap$Values.forEach(HashMap.java:1065)
-[16:32:25] [Server thread/WARN]: 	at fun.lewisdev.deluxehub.config.ConfigManager.loadFiles(ConfigManager.java:26)
-[16:32:25] [Server thread/WARN]: 	at fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:77)
-[16:32:25] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
-[16:32:25] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
-[16:32:25] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
-[16:32:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:525)
-[16:32:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:439)
-[16:32:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:612)
-[16:32:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:414)
-[16:32:25] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:262)
-[16:32:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:994)
-[16:32:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304)
-[16:32:25] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[16:32:25] [Server thread/WARN]: Caused by: while parsing a block collection
-[16:32:25] [Server thread/WARN]:  in 'string', line 95, column 5:
-[16:32:25] [Server thread/WARN]:         - "&7&m----------------------"
-[16:32:25] [Server thread/WARN]:         ^
-[16:32:25] [Server thread/WARN]: expected <block end>, but found '<scalar>'
-[16:32:25] [Server thread/WARN]:  in 'string', line 98, column 8:
-[16:32:25] [Server thread/WARN]:         - "§f&lRank:
-[16:32:25] [Server thread/WARN]:            ^
-[16:32:25] [Server thread/WARN]: 
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry.produce(ParserImpl.java:555)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:165)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:140)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:119)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:221)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:191)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:251)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:193)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:313)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:304)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:288)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:195)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:313)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:304)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:288)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:195)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:115)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:146)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:151)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490)
-[16:32:25] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.load(Yaml.java:416)
-[16:32:25] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57)
-[16:32:25] [Server thread/WARN]: 	... 17 more
-[16:32:25] [Server thread/ERROR]: [DeluxeHub] ============= CONFIGURATION ERROR =============
-[16:32:25] [Server thread/ERROR]: [DeluxeHub] There was an error loading config.yml
-[16:32:25] [Server thread/ERROR]: [DeluxeHub] Please check for any obvious configuration mistakes
-[16:32:25] [Server thread/ERROR]: [DeluxeHub] such as using tabs for spaces or forgetting to end quotes
-[16:32:25] [Server thread/ERROR]: [DeluxeHub] before reporting to the developer. The plugin will now disable..
-[16:32:25] [Server thread/ERROR]: [DeluxeHub] ============= CONFIGURATION ERROR =============
-[16:32:25] [Server thread/INFO]: [DeluxeHub] Disabling DeluxeHub v3.5.2
-[16:32:25] [Server thread/ERROR]: Error occurred while disabling DeluxeHub v3.5.2 (Is it up to date?)
+[17:01:47] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:01:48] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[17:01:50] [Worker-Main-11/INFO]: Loaded 7 recipes
+[17:01:54] [Server thread/INFO]: Starting minecraft server version 1.18
+[17:01:54] [Server thread/INFO]: Loading properties
+[17:01:55] [Server thread/INFO]: This server is running CraftBukkit version 3359-Spigot-dbf4938-4f5d59a (MC: 1.18) (Implementing API version 1.18-R0.1-SNAPSHOT)
+[17:01:55] [Server thread/INFO]: Debug logging is disabled
+[17:01:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:01:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:01:55] [Server thread/INFO]: Default game type: SURVIVAL
+[17:01:55] [Server thread/INFO]: Generating keypair
+[17:01:55] [Server thread/INFO]: Starting Minecraft server on *:25566
+[17:01:55] [Server thread/INFO]: Using default channel type
+[17:01:58] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[17:01:58] [Server thread/INFO]: [HotbarSounds] Loading HotbarSounds v2.1.0
+[17:01:58] [Server thread/INFO]: [ProtocolSupport] Loading ProtocolSupport v1.18.1-1
+[17:01:58] [Server thread/INFO]: [ProtocolSupport] File log is not enabled
+[17:01:58] [Server thread/INFO]: [ProtocolSupport] Detected Spigot server implementation type
+[17:01:58] [Server thread/ERROR]: [ProtocolSupport] ????????????????????????????????????????????????????????????????????
+[17:01:58] [Server thread/ERROR]: [ProtocolSupport] ?                               ERROR                               
+[17:01:58] [Server thread/ERROR]: [ProtocolSupport] ?   Unsupported server minecraft version 1.18
+[17:01:58] [Server thread/ERROR]: [ProtocolSupport] ?                                                                   
+[17:01:58] [Server thread/ERROR]: [ProtocolSupport] ?   This version of plugin only supports                            
+[17:01:58] [Server thread/ERROR]: [ProtocolSupport] ?   server minecraft version 1.18.1
+[17:01:58] [Server thread/ERROR]: [ProtocolSupport] ?   and following platforms:                                        
+[17:01:58] [Server thread/ERROR]: [ProtocolSupport] ?   - Spigot (https://www.spigotmc.org/)                            
+[17:01:58] [Server thread/ERROR]: [ProtocolSupport] ?   - Paper (https://papermc.io/)                                   
+[17:01:58] [Server thread/ERROR]: [ProtocolSupport] ?                                                                   
+[17:01:58] [Server thread/ERROR]: [ProtocolSupport] ?                                                                   
+[17:01:58] [Server thread/ERROR]: [ProtocolSupport] ?       https://github.com/ProtocolSupport/ProtocolSupport/         
+[17:01:58] [Server thread/ERROR]: [ProtocolSupport] ????????????????????????????????????????????????????????????????????
+[17:01:58] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
+[17:01:58] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.8.0
+[17:02:01] [Server thread/INFO]: [Parkour] Loading Parkour v7.0.3
+[17:02:01] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.1
+[17:02:01] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[17:02:02] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@204cf30a]
+[17:02:02] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.4.0
+[17:02:02] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.0-SNAPSHOT-b202
+[17:02:02] [Server thread/INFO]: [ServersNPC] Loading ServersNPC v3.7
+[17:02:02] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[17:02:03] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:02:03] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[17:02:03] [Server thread/INFO]: [ProtocolSupport] Enabling ProtocolSupport v1.18.1-1
+[17:02:03] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.8.0
+[17:02:03] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[17:02:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[17:02:03] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:02:03] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[17:02:03] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R1.PaperweightAdapter as the Bukkit adapter
+[17:02:05] [Server thread/INFO]: [WorldEdit] ====================================================
+[17:02:05] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[17:02:05] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[17:02:05] [Server thread/INFO]: [WorldEdit]   
+[17:02:05] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[17:02:05] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[17:02:05] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[17:02:05] [Server thread/INFO]: [WorldEdit]   
+[17:02:05] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[17:02:05] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[17:02:05] [Server thread/INFO]: [WorldEdit]   
+[17:02:05] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[17:02:05] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[17:02:05] [Server thread/INFO]: [WorldEdit]   
+[17:02:05] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[17:02:05] [Server thread/INFO]: [WorldEdit] ====================================================
+[17:02:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:02:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:02:05] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[17:02:05] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[17:02:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:02:05] [Server thread/INFO]: Preparing level "world"
+[17:02:06] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:02:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:02:06] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:02:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:02:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:02:06] [Server thread/INFO]: Simulation Distance: 10
+[17:02:06] [Server thread/INFO]: View Distance: 10
+[17:02:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:02:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:02:06] [Server thread/INFO]: Mob Spawn Range: 6
+[17:02:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:02:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:02:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:02:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:02:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:02:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:02:06] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:02:06] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:02:06] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:02:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:02:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:02:06] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:02:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:02:06] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:02:06] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:02:06] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:02:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:02:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:02:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:02:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:02:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:02:06] [Server thread/INFO]: Max TNT Explosions: 100
+[17:02:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:02:08] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:02:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:02:08] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:02:08] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:02:08] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:02:08] [Server thread/INFO]: Simulation Distance: 10
+[17:02:08] [Server thread/INFO]: View Distance: 10
+[17:02:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:02:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:02:08] [Server thread/INFO]: Mob Spawn Range: 6
+[17:02:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:02:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:02:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:02:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:02:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:02:08] [Server thread/INFO]: Max TNT Explosions: 100
+[17:02:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:02:08] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:02:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:02:08] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:02:08] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:02:08] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:02:08] [Server thread/INFO]: Simulation Distance: 10
+[17:02:08] [Server thread/INFO]: View Distance: 10
+[17:02:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:02:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:02:08] [Server thread/INFO]: Mob Spawn Range: 6
+[17:02:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:02:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:02:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:02:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:02:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:02:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:02:08] [Server thread/INFO]: Max TNT Explosions: 100
+[17:02:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:02:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:02:10] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[17:02:19] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[17:02:21] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[17:02:21] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[17:02:21] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[17:02:21] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[17:02:21] [Worker-Main-8/INFO]: Preparing spawn area: 1%
+[17:02:22] [Worker-Main-9/INFO]: Preparing spawn area: 4%
+[17:02:22] [Worker-Main-9/INFO]: Preparing spawn area: 5%
+[17:02:23] [Worker-Main-10/INFO]: Preparing spawn area: 9%
+[17:02:24] [Worker-Main-12/INFO]: Preparing spawn area: 15%
+[17:02:24] [Worker-Main-11/INFO]: Preparing spawn area: 15%
+[17:02:25] [Worker-Main-9/INFO]: Preparing spawn area: 19%
+[17:02:25] [Worker-Main-13/INFO]: Preparing spawn area: 23%
+[17:02:25] [Worker-Main-8/INFO]: Preparing spawn area: 23%
+[17:02:27] [Worker-Main-13/INFO]: Preparing spawn area: 23%
+[17:02:27] [Worker-Main-13/INFO]: Preparing spawn area: 23%
+[17:02:27] [Worker-Main-13/INFO]: Preparing spawn area: 28%
+[17:02:27] [Worker-Main-13/INFO]: Preparing spawn area: 35%
+[17:02:28] [Worker-Main-8/INFO]: Preparing spawn area: 44%
+[17:02:28] [Worker-Main-9/INFO]: Preparing spawn area: 54%
+[17:02:29] [Worker-Main-14/INFO]: Preparing spawn area: 56%
+[17:02:29] [Worker-Main-12/INFO]: Preparing spawn area: 62%
+[17:02:30] [Worker-Main-11/INFO]: Preparing spawn area: 68%
+[17:02:30] [Worker-Main-12/INFO]: Preparing spawn area: 69%
+[17:02:31] [Worker-Main-13/INFO]: Preparing spawn area: 69%
+[17:02:31] [Worker-Main-13/INFO]: Preparing spawn area: 69%
+[17:02:32] [Worker-Main-8/INFO]: Preparing spawn area: 69%
+[17:02:32] [Worker-Main-13/INFO]: Preparing spawn area: 70%
+[17:02:33] [Worker-Main-13/INFO]: Preparing spawn area: 75%
+[17:02:33] [Worker-Main-12/INFO]: Preparing spawn area: 82%
+[17:02:34] [Worker-Main-10/INFO]: Preparing spawn area: 83%
+[17:02:35] [Worker-Main-13/INFO]: Preparing spawn area: 83%
+[17:02:35] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[17:02:36] [Worker-Main-9/INFO]: Preparing spawn area: 84%
+[17:02:36] [Worker-Main-13/INFO]: Preparing spawn area: 84%
+[17:02:36] [Worker-Main-8/INFO]: Preparing spawn area: 85%
+[17:02:37] [Worker-Main-13/INFO]: Preparing spawn area: 87%
+[17:02:37] [Worker-Main-13/INFO]: Preparing spawn area: 88%
+[17:02:38] [Worker-Main-10/INFO]: Preparing spawn area: 91%
+[17:02:38] [Worker-Main-9/INFO]: Preparing spawn area: 93%
+[17:02:39] [Worker-Main-10/INFO]: Preparing spawn area: 95%
+[17:02:39] [Worker-Main-14/INFO]: Preparing spawn area: 95%
+[17:02:40] [Worker-Main-12/INFO]: Preparing spawn area: 97%
+[17:02:40] [Worker-Main-12/INFO]: Preparing spawn area: 99%
+[17:02:41] [Server thread/INFO]: Time elapsed: 32857 ms
+[17:02:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:02:42] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[17:02:42] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[17:02:42] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[17:02:42] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[17:02:43] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[17:02:43] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[17:02:44] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[17:02:44] [Worker-Main-8/INFO]: Preparing spawn area: 2%
+[17:02:45] [Worker-Main-8/INFO]: Preparing spawn area: 2%
+[17:02:46] [Worker-Main-13/INFO]: Preparing spawn area: 2%
+[17:02:46] [Worker-Main-11/INFO]: Preparing spawn area: 6%
+[17:02:46] [Worker-Main-9/INFO]: Preparing spawn area: 15%
+[17:02:47] [Worker-Main-10/INFO]: Preparing spawn area: 23%
+[17:02:47] [Worker-Main-12/INFO]: Preparing spawn area: 34%
+[17:02:48] [Worker-Main-9/INFO]: Preparing spawn area: 40%
+[17:02:48] [Worker-Main-9/INFO]: Preparing spawn area: 53%
+[17:02:49] [Worker-Main-11/INFO]: Preparing spawn area: 60%
+[17:02:49] [Worker-Main-11/INFO]: Preparing spawn area: 60%
+[17:02:50] [Worker-Main-10/INFO]: Preparing spawn area: 68%
+[17:02:51] [Worker-Main-10/INFO]: Preparing spawn area: 68%
+[17:02:51] [Worker-Main-13/INFO]: Preparing spawn area: 68%
+[17:02:51] [Worker-Main-14/INFO]: Preparing spawn area: 69%
+[17:02:52] [Worker-Main-13/INFO]: Preparing spawn area: 69%
+[17:02:52] [Worker-Main-12/INFO]: Preparing spawn area: 69%
+[17:02:53] [Worker-Main-13/INFO]: Preparing spawn area: 69%
+[17:02:53] [Worker-Main-12/INFO]: Preparing spawn area: 71%
+[17:02:54] [Worker-Main-9/INFO]: Preparing spawn area: 72%
+[17:02:54] [Worker-Main-12/INFO]: Preparing spawn area: 73%
+[17:02:55] [Worker-Main-8/INFO]: Preparing spawn area: 74%
+[17:02:55] [Worker-Main-13/INFO]: Preparing spawn area: 76%
+[17:02:56] [Worker-Main-11/INFO]: Preparing spawn area: 77%
+[17:02:56] [Worker-Main-13/INFO]: Preparing spawn area: 78%
+[17:02:57] [Worker-Main-14/INFO]: Preparing spawn area: 80%
+[17:02:57] [Worker-Main-10/INFO]: Preparing spawn area: 81%
+[17:02:58] [Worker-Main-13/INFO]: Preparing spawn area: 83%
+[17:02:59] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[17:02:59] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[17:02:59] [Worker-Main-14/INFO]: Preparing spawn area: 84%
+[17:03:00] [Worker-Main-12/INFO]: Preparing spawn area: 84%
+[17:03:00] [Worker-Main-12/INFO]: Preparing spawn area: 85%
+[17:03:01] [Worker-Main-13/INFO]: Preparing spawn area: 86%
+[17:03:01] [Worker-Main-11/INFO]: Preparing spawn area: 87%
+[17:03:02] [Worker-Main-11/INFO]: Preparing spawn area: 87%
+[17:03:02] [Worker-Main-10/INFO]: Preparing spawn area: 88%
+[17:03:03] [Worker-Main-12/INFO]: Preparing spawn area: 89%
+[17:03:03] [Worker-Main-12/INFO]: Preparing spawn area: 91%
+[17:03:04] [Worker-Main-11/INFO]: Preparing spawn area: 92%
+[17:03:04] [Worker-Main-8/INFO]: Preparing spawn area: 93%
+[17:03:05] [Worker-Main-9/INFO]: Preparing spawn area: 93%
+[17:03:05] [Worker-Main-14/INFO]: Preparing spawn area: 95%
+[17:03:06] [Worker-Main-11/INFO]: Preparing spawn area: 96%
+[17:03:06] [Worker-Main-12/INFO]: Preparing spawn area: 99%
+[17:03:07] [Server thread/INFO]: Time elapsed: 25675 ms
+[17:03:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:03:08] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[17:03:08] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[17:03:08] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[17:03:08] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[17:03:09] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[17:03:09] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[17:03:10] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[17:03:10] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[17:03:11] [Worker-Main-13/INFO]: Preparing spawn area: 2%
+[17:03:11] [Worker-Main-9/INFO]: Preparing spawn area: 9%
+[17:03:12] [Worker-Main-9/INFO]: Preparing spawn area: 17%
+[17:03:12] [Worker-Main-8/INFO]: Preparing spawn area: 20%
+[17:03:13] [Worker-Main-10/INFO]: Preparing spawn area: 23%
+[17:03:13] [Worker-Main-11/INFO]: Preparing spawn area: 40%
+[17:03:14] [Worker-Main-10/INFO]: Preparing spawn area: 49%
+[17:03:14] [Worker-Main-9/INFO]: Preparing spawn area: 51%
+[17:03:15] [Worker-Main-13/INFO]: Preparing spawn area: 65%
+[17:03:15] [Worker-Main-8/INFO]: Preparing spawn area: 69%
+[17:03:16] [Worker-Main-14/INFO]: Preparing spawn area: 77%
+[17:03:16] [Worker-Main-12/INFO]: Preparing spawn area: 84%
+[17:03:17] [Worker-Main-14/INFO]: Preparing spawn area: 88%
+[17:03:17] [Worker-Main-9/INFO]: Preparing spawn area: 92%
+[17:03:18] [Worker-Main-11/INFO]: Preparing spawn area: 97%
+[17:03:18] [Server thread/INFO]: Time elapsed: 11363 ms
+[17:03:18] [Server thread/INFO]: [HotbarSounds] Enabling HotbarSounds v2.1.0
+[17:03:18] [Server thread/INFO]: [m
+[17:03:18] [Server thread/INFO]: [0;37;22m=========> [0;32;1mHotbar Sounds [0;37;22m<=========[m
+[17:03:18] [Server thread/INFO]: [0;31;1mHotbar Sounds[m
+[17:03:18] [Server thread/INFO]: [0;33;1mMade By [0;31;1mItsLewizzz[m
+[17:03:18] [Server thread/INFO]: [0;33;1mVersion [0;31;1m2.1.0[m
+[17:03:18] [Server thread/INFO]: [0;37;22m=========> [0;32;1mHotbar Sounds [0;37;22m<=========[m
+[17:03:18] [Server thread/INFO]: [m
+[17:03:19] [Server thread/INFO]: [0;31;1mERROR: Could not make connection to SpigotMC.org[m
+[17:03:19] [Server thread/WARN]: java.io.IOException: Server returned HTTP response code: 403 for URL: https://www.spigotmc.org/api/general.php
+[17:03:19] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1997)
+[17:03:19] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+[17:03:19] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
+[17:03:19] [Server thread/WARN]: 	at me.lewis.hotbarsounds.Main.versionCheck(Main.java:76)
+[17:03:19] [Server thread/WARN]: 	at me.lewis.hotbarsounds.Main.onEnable(Main.java:55)
+[17:03:19] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[17:03:19] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+[17:03:19] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[17:03:19] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:525)
+[17:03:19] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:439)
+[17:03:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:612)
+[17:03:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:414)
+[17:03:19] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:262)
+[17:03:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:994)
+[17:03:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304)
+[17:03:19] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[17:03:19] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[17:03:19] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[17:03:19] [Server thread/INFO]: [Parkour] Enabling Parkour v7.0.3
+[17:03:20] [Server thread/INFO]: [Parkour] 0 courses found.
+[17:03:20] [Server thread/INFO]: [Parkour] 0 courses cached.
+[17:03:20] [Server thread/WARN]: [Parkour] [BountifulAPI] Plugin is missing, link was unsuccessful.
+[17:03:20] [Server thread/INFO]: [Parkour] [Vault] Successfully linked. Version: 1.7.3-b131
+[17:03:20] [Server thread/ERROR]: [Parkour] ! [Economy] Failed to connect to Vault's Economy service. Disabling Economy.
+[17:03:20] [Server thread/INFO]: [Parkour] [PlaceholderAPI] Successfully linked. Version: 2.11.2
+[17:03:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: parkour [7.0.3]
+[17:03:20] [Server thread/INFO]: [Parkour] Enabled Parkour v7.0.3
+[17:03:20] [ForkJoinPool.commonPool-worker-1/INFO]: [Parkour] Checking for update...
+[17:03:21] [ForkJoinPool.commonPool-worker-1/INFO]: [Parkour] No update available.
+[17:03:21] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.1
+[17:03:21] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_18_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m[m
+[17:03:21] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------/Warning\-------------------------[0;39m[m
+[17:03:21] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mThis plugin is running in PROXY mode![0;39m[m
+[17:03:21] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mYou have to do all configuration at config file[0;39m[m
+[17:03:21] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39minside your Bungeecord server.[0;39m[m
+[17:03:21] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m(Bungeecord-Server/plugins/SkinsRestorer/).[0;39m[m
+[17:03:21] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------\Warning/-------------------------[0;39m[m
+[17:03:21] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.4.0
+[17:03:21] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[17:03:21] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[17:03:21] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[17:03:21] [Server thread/INFO]: [DeluxeHub] 
+[17:03:21] [Server thread/INFO]: [DeluxeHub] Version: 3.4.0
+[17:03:21] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[17:03:21] [Server thread/INFO]: [DeluxeHub] 
+[17:03:21] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[17:03:21] [Server thread/WARN]: org.bukkit.configuration.InvalidConfigurationException: while parsing a block collection
+[17:03:21] [Server thread/WARN]:  in 'string', line 95, column 5:
+[17:03:21] [Server thread/WARN]:         - "&7&m----------------------"
+[17:03:21] [Server thread/WARN]:         ^
+[17:03:21] [Server thread/WARN]: expected <block end>, but found '<scalar>'
+[17:03:21] [Server thread/WARN]:  in 'string', line 98, column 8:
+[17:03:21] [Server thread/WARN]:         - "§f&lRank:
+[17:03:21] [Server thread/WARN]:            ^
+[17:03:21] [Server thread/WARN]: 
+[17:03:21] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:59)
+[17:03:21] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+[17:03:21] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128)
+[17:03:21] [Server thread/WARN]: 	at fun.lewisdev.deluxehub.config.ConfigHandler.saveDefaultConfig(ConfigHandler.java:31)
+[17:03:21] [Server thread/WARN]: 	at java.base/java.util.HashMap$Values.forEach(HashMap.java:1065)
+[17:03:21] [Server thread/WARN]: 	at fun.lewisdev.deluxehub.config.ConfigManager.loadFiles(ConfigManager.java:26)
+[17:03:21] [Server thread/WARN]: 	at fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:81)
+[17:03:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[17:03:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+[17:03:21] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[17:03:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:525)
+[17:03:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:439)
+[17:03:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:612)
+[17:03:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:414)
+[17:03:21] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:262)
+[17:03:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:994)
+[17:03:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304)
+[17:03:21] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[17:03:21] [Server thread/WARN]: Caused by: while parsing a block collection
+[17:03:21] [Server thread/WARN]:  in 'string', line 95, column 5:
+[17:03:21] [Server thread/WARN]:         - "&7&m----------------------"
+[17:03:21] [Server thread/WARN]:         ^
+[17:03:21] [Server thread/WARN]: expected <block end>, but found '<scalar>'
+[17:03:21] [Server thread/WARN]:  in 'string', line 98, column 8:
+[17:03:21] [Server thread/WARN]:         - "§f&lRank:
+[17:03:21] [Server thread/WARN]:            ^
+[17:03:21] [Server thread/WARN]: 
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry.produce(ParserImpl.java:555)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:165)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:140)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:119)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:221)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:191)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:251)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:193)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:313)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:304)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:288)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:195)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:313)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:304)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:288)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:195)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:115)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:146)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:151)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490)
+[17:03:21] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.load(Yaml.java:416)
+[17:03:21] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57)
+[17:03:21] [Server thread/WARN]: 	... 17 more
+[17:03:21] [Server thread/ERROR]: [DeluxeHub] ============= CONFIGURATION ERROR =============
+[17:03:21] [Server thread/ERROR]: [DeluxeHub] There was an error loading config.yml
+[17:03:21] [Server thread/ERROR]: [DeluxeHub] Please check for any obvious configuration mistakes
+[17:03:21] [Server thread/ERROR]: [DeluxeHub] such as using tabs for spaces or forgetting to end quotes
+[17:03:21] [Server thread/ERROR]: [DeluxeHub] before reporting to the developer. The plugin will now disable..
+[17:03:21] [Server thread/ERROR]: [DeluxeHub] ============= CONFIGURATION ERROR =============
+[17:03:21] [Server thread/INFO]: [DeluxeHub] Disabling DeluxeHub v3.4.0
+[17:03:21] [Server thread/ERROR]: Error occurred while disabling DeluxeHub v3.4.0 (Is it up to date?)
 java.lang.NullPointerException: Cannot invoke "fun.lewisdev.deluxehub.module.ModuleManager.unloadModules()" because "this.moduleManager" is null
-	at fun.lewisdev.deluxehub.DeluxeHubPlugin.onDisable(DeluxeHubPlugin.java:113) ~[?:?]
+	at fun.lewisdev.deluxehub.DeluxeHubPlugin.onDisable(DeluxeHubPlugin.java:117) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.18-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:367) ~[spigot-api-1.18-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:501) ~[spigot-api-1.18-R0.1-SNAPSHOT.jar:?]
 	at fun.lewisdev.deluxehub.config.ConfigHandler.saveDefaultConfig(ConfigHandler.java:40) ~[?:?]
 	at java.util.HashMap$Values.forEach(HashMap.java:1065) ~[?:?]
 	at fun.lewisdev.deluxehub.config.ConfigManager.loadFiles(ConfigManager.java:26) ~[?:?]
-	at fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:77) ~[?:?]
+	at fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:81) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-api-1.18-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.18-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.18-R0.1-SNAPSHOT.jar:?]
@@ -438,7 +461,7 @@ java.lang.NullPointerException: Cannot invoke "fun.lewisdev.deluxehub.module.Mod
 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:994) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3359-Spigot-dbf4938-4f5d59a]
 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3359-Spigot-dbf4938-4f5d59a]
 	at java.lang.Thread.run(Thread.java:833) [?:?]
-[16:32:25] [Server thread/ERROR]: Error occurred while enabling DeluxeHub v3.5.2 (Is it up to date?)
+[17:03:21] [Server thread/ERROR]: Error occurred while enabling DeluxeHub v3.4.0 (Is it up to date?)
 java.lang.IllegalStateException: zip file closed
 	at java.util.zip.ZipFile.ensureOpen(ZipFile.java:831) ~[?:?]
 	at java.util.zip.ZipFile.getEntry(ZipFile.java:330) ~[?:?]
@@ -450,7 +473,7 @@ java.lang.IllegalStateException: zip file closed
 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-api-1.18-R0.1-SNAPSHOT.jar:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
 	at fun.lewisdev.deluxehub.config.ConfigManager.loadFiles(ConfigManager.java:28) ~[?:?]
-	at fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:77) ~[?:?]
+	at fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:81) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-api-1.18-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.18-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.18-R0.1-SNAPSHOT.jar:?]
@@ -462,62 +485,51 @@ java.lang.IllegalStateException: zip file closed
 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:994) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3359-Spigot-dbf4938-4f5d59a]
 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3359-Spigot-dbf4938-4f5d59a]
 	at java.lang.Thread.run(Thread.java:833) [?:?]
-[16:32:25] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.0-SNAPSHOT-b202
-[16:32:26] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v3.7
-[16:32:26] [Server thread/WARN]: No cache found for: [net.minecraft.world.entity.player.ProfilePublicKey]
-[16:32:26] [Server thread/WARN]: No cache found for: [net.minecraft.world.entity.player.ProfilePublicKey] : []
-[16:32:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:32:26] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[16:32:26] [Server thread/INFO]: [0;33;22m0 placeholder hook(s) registered![m
-[16:32:26] [Server thread/INFO]: Done (79.346s)! For help, type "help"
-[16:32:27] [Craft Scheduler Thread - 2/INFO]: [Vault] Checking for Updates ... 
-[16:32:27] [Craft Scheduler Thread - 2/INFO]: [Vault] No new version available
-[16:32:27] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[16:32:27] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
-[16:32:27] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
-[16:32:27] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
-[16:32:27] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   [33;1mProxy Mode[32;1m    |[0;39m[m
-[16:32:27] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
-[16:32:27] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[16:32:27] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.1[0;39m[m
-[16:32:27] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
-[16:32:27] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[16:32:49] [User Authenticator #1/INFO]: UUID of player Mr_Sc3n1c is f9475e65-5174-382d-bf87-2f14c5d66c4d
-[16:32:51] [Server thread/INFO]: Mr_Sc3n1c[/127.0.0.1:55605] logged in with entity id 130 at ([world]18.29425383391875, 60.0, -27.500608044660982)
-[16:33:02] [Server thread/INFO]: Mr_Sc3n1c suffocated in a wall
-[16:33:04] [Server thread/INFO]: Skipping update from removed player 'EntityPlayer['Mr_Sc3n1c'/130, l='ServerLevel[world]', x=18.29, y=60.00, z=-27.50, removed=KILLED](Mr_Sc3n1c at 18.29425383391875,60.0,-27.500608044660982)'
-[16:33:14] [Server thread/INFO]: Mr_Sc3n1c issued server command: /pl
-[16:33:14] [Server thread/INFO]: Mr_Sc3n1c issued server command: /pl
-[16:34:24] [Server thread/INFO]: Mr_Sc3n1c issued server command: /PL
-[16:34:49] [Server thread/INFO]: Mr_Sc3n1c issued server command: /parkour
-[16:34:58] [Server thread/INFO]: Mr_Sc3n1c issued server command: /pa cmds
-[16:35:03] [Server thread/INFO]: Mr_Sc3n1c issued server command: /pa cmds 1
-[16:35:21] [Server thread/INFO]: Mr_Sc3n1c issued server command: /pa lobby world
-[16:36:36] [Server thread/INFO]: Mr_Sc3n1c lost connection: Disconnected
-[16:36:36] [Server thread/INFO]: Mr_Sc3n1c left the game
-[16:51:09] [User Authenticator #2/INFO]: UUID of player Mr_Sc3n1c is f9475e65-5174-382d-bf87-2f14c5d66c4d
-[16:51:11] [Server thread/INFO]: Mr_Sc3n1c[/127.0.0.1:65033] logged in with entity id 749 at ([world]10.80700515021721, 68.0, -10.934709044226425)
-[16:51:17] [Server thread/INFO]: Mr_Sc3n1c lost connection: Disconnected
-[16:51:17] [Server thread/INFO]: Mr_Sc3n1c left the game
-[16:59:05] [Server thread/INFO]: Stopping the server
-[16:59:05] [Server thread/INFO]: Stopping server
-[16:59:05] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v3.7
-[16:59:05] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v3.0.0-SNAPSHOT-b202
-[16:59:05] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
-[16:59:05] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[16:59:06] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.1
-[16:59:06] [Server thread/INFO]: [Parkour] Disabling Parkour v7.0.3
-[16:59:06] [Server thread/INFO]: [Parkour] Disabled Parkour v7.0.3
-[16:59:06] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.8.0
-[16:59:06] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
-[16:59:06] [Server thread/INFO]: [ProtocolSupport] Disabling ProtocolSupport v1.18.1-1
-[16:59:06] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[16:59:06] [Server thread/INFO]: Saving players
-[16:59:06] [Server thread/INFO]: Saving worlds
-[16:59:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:59:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[16:59:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[16:59:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:59:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:59:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:59:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:03:21] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.0-SNAPSHOT-b202
+[17:03:21] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v3.7
+[17:03:21] [Server thread/WARN]: No cache found for: [net.minecraft.world.entity.player.ProfilePublicKey]
+[17:03:21] [Server thread/WARN]: No cache found for: [net.minecraft.world.entity.player.ProfilePublicKey] : []
+[17:03:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:03:22] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[17:03:22] [Server thread/INFO]: [0;33;22m0 placeholder hook(s) registered![m
+[17:03:22] [Server thread/INFO]: Done (76.754s)! For help, type "help"
+[17:03:23] [Craft Scheduler Thread - 1/INFO]: [Vault] Checking for Updates ... 
+[17:03:23] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[17:03:23] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[17:03:23] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+[17:03:23] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+[17:03:23] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   [33;1mProxy Mode[32;1m    |[0;39m[m
+[17:03:23] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[17:03:23] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[17:03:23] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.1[0;39m[m
+[17:03:23] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
+[17:03:23] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[17:03:23] [Craft Scheduler Thread - 1/INFO]: [Vault] No new version available
+[17:03:50] [User Authenticator #1/INFO]: UUID of player Mr_Sc3n1c is f9475e65-5174-382d-bf87-2f14c5d66c4d
+[17:03:50] [Server thread/INFO]: Mr_Sc3n1c[/127.0.0.1:64840] logged in with entity id 231 at ([world]10.80700515021721, 68.0, -10.934709044226425)
+[17:03:58] [Server thread/INFO]: Mr_Sc3n1c issued server command: /pl
+[17:06:24] [Server thread/INFO]: Stopping the server
+[17:06:24] [Server thread/INFO]: Stopping server
+[17:06:24] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v3.7
+[17:06:24] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v3.0.0-SNAPSHOT-b202
+[17:06:24] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
+[17:06:24] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[17:06:24] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.1
+[17:06:24] [Server thread/INFO]: [Parkour] Disabling Parkour v7.0.3
+[17:06:24] [Server thread/INFO]: [Parkour] Disabled Parkour v7.0.3
+[17:06:24] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.8.0
+[17:06:24] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
+[17:06:24] [Server thread/INFO]: [ProtocolSupport] Disabling ProtocolSupport v1.18.1-1
+[17:06:24] [Server thread/INFO]: [HotbarSounds] Disabling HotbarSounds v2.1.0
+[17:06:24] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[17:06:24] [Server thread/INFO]: Saving players
+[17:06:24] [Server thread/INFO]: Mr_Sc3n1c lost connection: Server closed
+[17:06:24] [Server thread/INFO]: Mr_Sc3n1c left the game
+[17:06:24] [Server thread/INFO]: Saving worlds
+[17:06:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:06:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:06:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:06:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:06:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:06:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:06:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
