@@ -1,0 +1,64 @@
+# BedWars1058 arena configuration file.
+# Documentation here: https://gitlab.com/andrei1058/BedWars1058/wikis/configuration/Arena-Configuration
+group: Default
+display-name: ''
+minPlayers: 2
+maxInTeam: 1
+allowSpectate: true
+spawn-protection: 5
+shop-protection: 1
+upgrades-protection: 1
+generator-protection: 1
+island-radius: 17
+worldBorder: 300
+y-kill-height: -1
+max-build-y: 180
+disable-generator-for-empty-teams: false
+disable-npcs-for-empty-teams: true
+vanilla-death-drops: false
+use-bed-hologram: true
+allow-map-break: false
+game-rules:
+- doDaylightCycle:false
+- announceAdvancements:false
+- doInsomnia:false
+- doImmediateRespawn:true
+- doWeatherCycle:false
+- doFireTick:false
+waiting:
+  Loc: 0.371712042132602,118.0,0.8472861970250913,-1.4999234676361084,0.7501339912414551
+  Pos1: 15.897324741968369,110.79432876569693,14.148421191571943,130.199951171875,10.800314903259277
+  Pos2: -12.265177717233037,129.15799214184057,-12.624334267117533,-43.20037078857422,32.70026779174805
+Team:
+  RED:
+    Color: RED
+    Spawn: -22.4969120185074,65.0,-87.23085631037398,-0.7517617344856262,-1.1993513107299805
+    Bed: -23.0,66.0,-76.0,-0.7517617344856262,0.0
+  BLUE:
+    Color: BLUE
+    Spawn: 29.43784743649538,65.0,-87.5092764434384,0.8999934196472168,-1.1998682022094727
+    Bed: 29.0,66.0,-76.0,0.8999934196472168,0.0
+  GREEN:
+    Color: GREEN
+    Spawn: 91.25991616111264,65.0,-25.498931898157867,91.3508529663086,-4.049732685089111
+    Bed: 78.0,66.0,-26.0,91.3508529663086,0.0
+  YELLOW:
+    Color: YELLOW
+    Spawn: 91.21183547008395,65.0,26.4546020662337,89.25017547607422,-2.100322961807251
+    Bed: 78.0,66.0,26.0,89.25017547607422,0.0
+  AQUA:
+    Color: AQUA
+    Spawn: 29.365187572860147,65.0,88.04016658982493,178.79966735839844,-6.149886131286621
+    Bed: 29.0,66.0,75.0,178.79966735839844,0.0
+  WHITE:
+    Color: WHITE
+    Spawn: -22.477020779691934,65.0,88.42250832717697,179.39984130859375,0.9001416563987732
+    Bed: -23.0,66.0,75.0,179.39984130859375,0.0
+  PINK:
+    Color: PINK
+    Spawn: -84.24337609034691,65.0,26.495921917682477,-90.90090942382812,-0.5998290777206421
+    Bed: -73.0,66.0,26.0,-90.90090942382812,0.0
+  GRAY:
+    Color: GRAY
+    Spawn: -83.87506893284365,65.0,-25.527450976783527,-90.29998779296875,-5.099876880645752
+    Bed: -73.0,66.0,-26.0,-90.29998779296875,0.0
