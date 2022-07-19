@@ -88,7 +88,7 @@ scoreboard:
   # Should we refresh the scoreboard (update placeholders)?
   refresh:
     enabled: true
-    rate: 200 # In ticks (20 ticks = 1 second)
+    rate: 400 # In ticks (20 ticks = 1 second)
 
   title: "§2&lMine&l§bExe"
   lines:
