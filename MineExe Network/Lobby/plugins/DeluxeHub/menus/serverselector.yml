@@ -35,7 +35,7 @@
 slots: 27
 
 # Title of the GUI
-title: "Server Selector"
+title: "&6&l&oMenù dei Giochi"
 
 # Automatically update open inventories.
 # This can be used to update placeholders in the GUI.
@@ -46,33 +46,31 @@ refresh:
 # The items inside the GUI can be listed here
 items:
   filler:
-    material: GRAY_STAINED_GLASS_PANE
+    material: GREEN_STAINED_GLASS_PANE
     slot: -1 # Setting the slot to -1 will fill every empty slot, you can also do "slots: [0, 1, 2]"
   BedWars:
     material: RED_BED
     slot: 11
     amount: 1
     glow: true
-    display_name: '&eBedWars'
+    display_name: '&9&lBedWars'
     lore:
-      - '&7Join now!'
-      - '&aPlaceholderAPI support!'
+      - '&a&oEntra Ora!'
     actions:
       - '[CLOSE]'
-      - '[MESSAGE] &7Ti stiamo portando in:&eBedWars'
+      - '[MESSAGE] &d> Connessione a "BedWars"'
       - '[BUNGEE] BedWars'
       # For multi-world servers using Multiverse-Core, use the action:
       # - '[CONSOLE] mvtp %player% world'
-  survival:
-    material: GRASS_BLOCK
+  SkyWars:
+    material: IRON_SWORD
     slot: 15
     amount: 1
-    glow: false
-    display_name: '&aSurvival'
+    glow: true
+    display_name: '&b&lSkywars'
     lore:
-      - '&7Join now!'
-      - '&aMulti lore support too!'
+      - '&a&oEntra Ora!'
     actions:
       - '[CLOSE]'
-      - '[MESSAGE] &7Sending you to: &eSurvival'
+      - '[MESSAGE] &d> Connessione a SkyWars'
       - '[BUNGEE] survival'
